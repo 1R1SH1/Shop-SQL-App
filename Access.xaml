@@ -1,0 +1,21 @@
+﻿<Window x:Class="Shop_App_Sql_WPF.Access"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shop_App_Sql_WPF"
+        mc:Ignorable="d"
+        Title="Доступ" Height="319" Width="300" FontSize="14" Background="Beige">
+    <Border Background="Gray" CornerRadius="20" Margin="20">
+        <StackPanel Margin="20">
+            <Label Content="Доступ" Foreground="White" FontSize="25" HorizontalAlignment="Center"/>
+            <Separator></Separator>
+            <Label Content="Имя пользователя" Foreground="White"/>
+            <TextBox Name="txtUsername" Background="DarkGray" Foreground="White" FontSize="18"/>
+            <Label Content="Пароль" Foreground="White"/>
+            <PasswordBox Name="txtPassword" Background="DarkGray" Foreground="White" FontSize="18"/>
+            <Button Name="btnSubmit" Click="btnGetAccess" Content="Подтвердить" Margin="60 10" Background="Gray" 
+                    Foreground="White" FontSize="18"/>
+        </StackPanel>
+    </Border>
+</Window>

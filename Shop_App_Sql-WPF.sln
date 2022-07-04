@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop_App_Sql-WPF", "Shop_App_Sql-WPF.csproj", "{354AE7DB-9CFD-422A-88C1-2BCCA8B2B481}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saving_InfoLog_ClassLibrary", "Saving_InfoLog_ClassLibrary\Saving_InfoLog_ClassLibrary.csproj", "{C0A704EA-043B-476C-96DD-94759FEFB3FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{354AE7DB-9CFD-422A-88C1-2BCCA8B2B481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354AE7DB-9CFD-422A-88C1-2BCCA8B2B481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354AE7DB-9CFD-422A-88C1-2BCCA8B2B481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354AE7DB-9CFD-422A-88C1-2BCCA8B2B481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A704EA-043B-476C-96DD-94759FEFB3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A704EA-043B-476C-96DD-94759FEFB3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A704EA-043B-476C-96DD-94759FEFB3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A704EA-043B-476C-96DD-94759FEFB3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C7D8124-7E49-415F-9F9F-A3099A1737FD}
+	EndGlobalSection
+EndGlobal

@@ -37,7 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Saving_InfoLog_ClassLibrary">
-      <HintPath>Saving_InfoLog_ClassLibrary\bin\Debug\net4.8\Saving_InfoLog_ClassLibrary.dll</HintPath>
+      <HintPath>Saving_InfoLog_ClassLibrary\Saving_InfoLog_ClassLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

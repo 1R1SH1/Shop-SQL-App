@@ -39,7 +39,7 @@ namespace Shop_App_Sql_WPF
                 }
                 else
                 {
-                    MessageBox.Show("Username or password is incorrect.");
+                    MessageBox.Show("Неверное Имя или Пароль.");
                 }
             }
             catch (Exception ex)

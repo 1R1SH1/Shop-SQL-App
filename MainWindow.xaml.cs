@@ -17,7 +17,6 @@ namespace Shop_App_Sql_WPF
         private SavingMethod _savingInfoLogs = new();
         private Repository _repository = new();
         DataTable dt;
-        private Access _access;
 
         public event Action<string> Transaction;
 
@@ -103,16 +102,6 @@ namespace Shop_App_Sql_WPF
             {
                 con.Close();
             }
-        }
-
-        private void cSelectClient_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
-        {
-
-        }
-
-        private void cSelectedClient_Purchases(object sender, SelectionChangedEventArgs e)
-        {
-
         }
 
         private void Button_SelectElectronics_Click(object sender, RoutedEventArgs e)
